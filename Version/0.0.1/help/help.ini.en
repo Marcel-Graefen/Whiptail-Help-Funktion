@@ -1,0 +1,69 @@
+[meta]
+name=language_management_system
+backtitle=HUHU
+lang_code=en
+language=Englisch
+language_en=Englisch
+
+# Hauptmenü
+[menu]
+name=Hauptmenü
+01=Funktion-1
+02=Funktion-2
+
+  # Funktion-1
+  [menu:01]
+  name=Funktion-1
+  01=Anleitung
+  02=Erklärung
+
+    # Untermenü für Anleitung
+    [menu:01-01]
+    name=Anleitungen
+    01=Schnellstart
+    02=Ausführlich
+
+      # Unter-Untermenü für Schnellstart
+      [menu:01-01-01]
+      name=Schnellstart-Optionen
+      01=Kurzanleitung
+      02=Details
+
+        # Content für Kurzanleitung
+        [content:01-01-01-01]
+        name=Kurzanleitung
+        text=Kurzanleitungstext
+
+        # Content für Details
+        [content:01-01-01-02]
+        name=Details
+        text=Detailtext
+
+  # Funktion-2
+  [menu:02]
+  name=Funktion-2
+  01=Anleitung
+  02=Erklärung
+
+    # Untermenü für Anleitung (Funktion-2)
+    [menu:02-01]
+    name=Anleitungen
+    01=Schnellstart
+    02=Ausführlich
+
+    # Unter-Untermenü für Schnellstart (Funktion-2)
+    [menu:02-01-01]
+    name=Schnellstart-Optionen
+    01=Kurzanleitung
+    02=Details
+
+      # Content für Kurzanleitung (Funktion-2)
+      [content:02-01-01-01]
+      name=Kurzanleitung
+      text=Kurzanleitungstext
+
+      # Content für Details (Funktion-2)
+      [content:02-01-01-02]
+      name=Details
+      text=Detailtext
+      file=hallo.de
